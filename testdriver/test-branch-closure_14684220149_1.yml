@@ -1,0 +1,19 @@
+version: 4.2.29
+session: 680d320243e1aa906e7eb80b
+steps:
+  - prompt: Click on "CHANGE BRANCH."
+    commands:
+      - command: hover-text
+        text: CHANGE BRANCH
+        description: button on the right side of the webpage
+        action: click
+  - prompt: Click on the "X CLOSE" button.
+    commands:
+      - command: hover-text
+        text: X CLOSE
+        description: close button at the bottom of the menu
+        action: click
+  - prompt: Assert that the Change Branch menu is closed.
+    commands:
+      - command: assert
+        expect: the Change Branch menu is closed
