@@ -1,0 +1,9 @@
+version: 4.2.29
+session: 680d32c0715f68d750e818ad
+steps:
+  - prompt: Click on a "BURGER COMBO" item.
+    commands:
+      - command: hover-text
+        text: BURGER COMBO
+        description: burger combo item on the webpage
+        action: click
