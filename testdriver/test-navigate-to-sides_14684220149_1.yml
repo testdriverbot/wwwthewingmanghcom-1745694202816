@@ -1,0 +1,15 @@
+version: 4.2.29
+session: 680d31f8715f68d750e81893
+steps:
+  - prompt: Click on the "SIDES" menu item.
+    commands:
+      - command: hover-text
+        text: SIDES
+        description: menu item for sides
+        action: click
+  - prompt: Assert that the Sides category is displayed.
+    commands:
+      - command: assert
+        expect: >-
+          the Sides category is displayed with items like YAM CHIPS and FRESH
+          CUT POTATO CHIPS
