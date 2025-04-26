@@ -1,0 +1,9 @@
+version: 4.2.29
+session: 680d31e343e1aa906e7eb806
+steps:
+  - prompt: Click on the "HOTDOGS" menu item.
+    commands:
+      - command: hover-text
+        text: HOTDOGS
+        description: menu item for hotdogs in the webpage header
+        action: click
